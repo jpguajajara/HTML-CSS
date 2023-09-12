@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de grid</title>
+    <style type="text/css">
+        .grid-container{
+            display:grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .grid-item {
+            background-color: bisque;
+            padding: 20px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Grid Layout</h1>
+    <div class="grid-container">
+        <div class="grid-item">Porduto 1</div>
+        <div class="grid-item">Porduto 2</div>
+        <div class="grid-item">Porduto 3</div>
+        <div class="grid-item">Porduto 4</div>
+        <div class="grid-item">Porduto 5</div>
+        <div class="grid-item">Porduto 6</div>
+    </div>
+</body>
+</html>
